@@ -125,7 +125,7 @@
 
 		document.getElementsByClassName('time')[0].innerHTML = `${WeekDay} ${MonthDay}`;
 
-		fetch("http://api.openweathermap.org/data/2.5/weather?q=Buenos+Aires,ar&units=metric")
+		fetch("http://api.openweathermap.org/data/2.5/weather?q=Buenos+Aires,ar&units=metric&APPID=f6c904219b333b4b7ebd355b5312d997")
 			.then(function(response){
 				return response.json();
 			})
